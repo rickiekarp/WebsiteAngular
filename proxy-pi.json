@@ -1,0 +1,10 @@
+{
+  "/HomeServer/*": {
+    "target": "https://api.rickiekarp.net/",
+    "secure": false
+  },
+  "/LoginServer/*": {
+    "target": "https://api.rickiekarp.net/",
+    "secure": false
+  }
+}
