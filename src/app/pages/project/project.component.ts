@@ -50,28 +50,57 @@ export class ProjectComponent implements OnInit {
     switch(this.id) {
 
       // professional projects begin here
+      case 'ogame-mobile':
+        this.project.name = 'OGame Mobile'
+        this.project.description = 'Fight for control of the universe in the classic space strategy sim OGame. Conquer new planets, research futuristic technologies, forge alliances and compete against thousands of other rulers in epic space battles.'
+        this.project.projectUrl = 'https://gameforge.com/en-GB/play/ogame'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.jpg"
+        this.project.company = 'Gameforge'
+        this.project.projectDuration = '2022'
+        this.project.text = "Responsibilities in the project:"
+        this.project.tasks = [
+          'Implementing UI and gameplay features'
+        ]
+        this.project.trailerUrl = 'https://www.youtube.com/embed/U0xvV1narOw'
+        break;
+
+      // professional projects begin here
+      case 'trigon':
+        this.project.name = 'Trigon Space Story'
+        this.project.description = 'Trigon: Space Story, the spiritual successor of FTL: Faster Than Light, is a strategic roguelike indie title in which sci-fi fans will find themselves right at home.'
+        this.project.projectUrl = 'https://gameforge.com/en-GB/play/trigon_space_story'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.jpg"
+        this.project.company = 'Gameforge'
+        this.project.projectDuration = '2022'
+        this.project.text = "Responsibilities in the project:"
+        this.project.tasks = [
+          'Support integration into Gameforge platform',
+          'Prepared and deployed shop for pre-order and release bundles'
+        ]
+        this.project.trailerUrl = 'https://www.youtube.com/embed/xyTuv3yl6Bs'
+        break;
+
+      // professional projects begin here
       case 'gujian':
-      this.project.name = 'Swords of Legends Online'
-      this.project.description = 'Swords of Legends Online is an action MMORPG set in a breathtaking fantasy world with sophisticated combat mechanics and a unique storyline based on Chinese mythology.'
-      this.project.projectUrl = 'https://gameforge.com/play/swords_of_legends_online'
-      this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.jpg"
-      this.project.company = 'Gameforge'
-      this.project.function = 'DevOps Engineer'
-      this.project.projectDuration = '2020'
-      this.project.text = "Responsibilities in the project:"
-      this.project.tasks = [
-        'Support integration into Gameforge platform',
-        'Prepared and deployed shop for pre-order and release bundles'
-      ]
-      this.project.trailerUrl = 'https://www.youtube.com/embed/ak4Fx1UoWeQ'
-    break;
+        this.project.name = 'Swords of Legends Online'
+        this.project.description = 'Swords of Legends Online is an action MMORPG set in a breathtaking fantasy world with sophisticated combat mechanics and a unique storyline based on Chinese mythology.'
+        this.project.projectUrl = 'https://gameforge.com/play/swords_of_legends_online'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.jpg"
+        this.project.company = 'Gameforge'
+        this.project.projectDuration = '2020'
+        this.project.text = "Responsibilities in the project:"
+        this.project.tasks = [
+          'Support integration into Gameforge platform',
+          'Prepared and deployed shop for pre-order and release bundles'
+        ]
+        this.project.trailerUrl = 'https://www.youtube.com/embed/ak4Fx1UoWeQ'
+        break;
       case 'soulworkeranimelegends': 
         this.project.name = 'Soulworker Anime Legends'
         this.project.description = '💎Enjoy one of the best anime style multiplayer action RPG’s of 2020💎'
         this.project.projectUrl = 'https://gameforge.com/play/soulworker_anime_legends'
         this.project.projectImage = 'images/projects/professional/soulworker/logo-wide.jpg'
         this.project.company = 'Gameforge'
-        this.project.function = 'DevOps Engineer'
         this.project.projectDuration = '2020'
         this.project.text = "Responsibilities in the project:"
         this.project.tasks = [
@@ -86,14 +115,13 @@ export class ProjectComponent implements OnInit {
         this.project.projectUrl = 'https://gameforge.com/play/kingdom_under_fire_2'
         this.project.projectImage = 'images/projects/professional/kuf2/logo-kuf2-wide.jpg'
         this.project.company = 'Gameforge'
-        this.project.function = 'DevOps Engineer'
         this.project.projectDuration = '2019'
         this.project.text = "Responsibilities in the project:"
         this.project.tasks = [
           'Support integration into Gameforge platform',
           'Prepared and deployed shop for pre-order and release bundles'
         ]
-        this.project.trailerUrl = 'https://www.youtube.com/embed/QXKqnE7VZtg'
+        this.project.trailerUrl = 'https://www.youtube.com/embed/RjEVY0WhWXI'
         break;
       case 'guardiansofember': 
         this.project.name = 'Guardians of Ember'
@@ -101,7 +129,6 @@ export class ProjectComponent implements OnInit {
         this.project.projectUrl = 'https://gameforge.com/play/guardians_of_ember'
         this.project.projectImage = 'images/projects/professional/guardiansofember/logo-goe-wide.jpg'
         this.project.company = 'Gameforge'
-        this.project.function = 'DevOps Engineer'
         this.project.projectDuration = '2019'
         this.project.text = "Responsibilities in the project:"
         this.project.tasks = [
@@ -116,7 +143,6 @@ export class ProjectComponent implements OnInit {
         this.project.projectUrl = 'https://www.facebook.com/pg/battlehordes'
         this.project.projectImage = 'images/projects/professional/logo-bh.png'
         this.project.company = 'XYRALITY'
-        this.project.function = 'Software engineering trainee'
         this.project.projectDuration = 'November 2016 - July 2017'
         this.project.text = "Responsibilities in the project:"
         this.project.tasks = [
@@ -137,7 +163,6 @@ export class ProjectComponent implements OnInit {
         this.project.projectUrl = 'https://lordsandknights.com'
         this.project.projectImage = 'images/projects/professional/logo-lk.png'
         this.project.company = 'XYRALITY'
-        this.project.function = 'Software engineering trainee'
         this.project.projectDuration = 'February 2016 - June 2018'
         this.project.text = "Responsibilities in the project:"
         this.project.tasks = [ 
