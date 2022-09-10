@@ -99,7 +99,7 @@ export class ProjectComponent implements OnInit {
         this.project.name = 'Soulworker Anime Legends'
         this.project.description = '💎Enjoy one of the best anime style multiplayer action RPG’s of 2020💎'
         this.project.projectUrl = 'https://gameforge.com/play/soulworker_anime_legends'
-        this.project.projectImage = 'images/projects/professional/soulworker/logo-wide.jpg'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.jpg"
         this.project.company = 'Gameforge'
         this.project.projectDuration = '2020'
         this.project.text = "Responsibilities in the project:"
@@ -113,7 +113,7 @@ export class ProjectComponent implements OnInit {
         this.project.name = 'Kingdom Under Fire 2'
         this.project.description = 'Kingdom Under Fire 2 is an action-packed MMORPG/RTS hybrid. Choose one of five heroes, explore a fantasy world and hone your skills until you and your troops are ready for the epic-scale battles of this colossal war!'
         this.project.projectUrl = 'https://gameforge.com/play/kingdom_under_fire_2'
-        this.project.projectImage = 'images/projects/professional/kuf2/logo-kuf2-wide.jpg'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.jpg"
         this.project.company = 'Gameforge'
         this.project.projectDuration = '2019'
         this.project.text = "Responsibilities in the project:"
@@ -127,7 +127,7 @@ export class ProjectComponent implements OnInit {
         this.project.name = 'Guardians of Ember'
         this.project.description = 'Slash your way through hordes of monsters in a world complete with crafting system, dungeons, mounts, pets, guilds and trading.'
         this.project.projectUrl = 'https://gameforge.com/play/guardians_of_ember'
-        this.project.projectImage = 'images/projects/professional/guardiansofember/logo-goe-wide.jpg'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.jpg"
         this.project.company = 'Gameforge'
         this.project.projectDuration = '2019'
         this.project.text = "Responsibilities in the project:"
@@ -141,7 +141,7 @@ export class ProjectComponent implements OnInit {
         this.project.name = 'Battle Hordes'
         this.project.description = 'Battle Hordes is a free-to-play fantasy MMO for mobile devices. Customize a castle and command an army to conquer the world for your glorious empire!'
         this.project.projectUrl = 'https://www.facebook.com/pg/battlehordes'
-        this.project.projectImage = 'images/projects/professional/logo-bh.png'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.png"
         this.project.company = 'XYRALITY'
         this.project.projectDuration = 'November 2016 - July 2017'
         this.project.text = "Responsibilities in the project:"
@@ -161,7 +161,7 @@ export class ProjectComponent implements OnInit {
         this.project.name = 'Lords & Knights'
         this.project.description = 'Lords & Knights is a medieval strategy MMO game available for Browser, iOS and Android. Play with thousands of other lords, create massive armies and conquer hundreds of new castles. There is no limit in this game!'
         this.project.projectUrl = 'https://lordsandknights.com'
-        this.project.projectImage = 'images/projects/professional/logo-lk.png'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.png"
         this.project.company = 'XYRALITY'
         this.project.projectDuration = 'February 2016 - June 2018'
         this.project.text = "Responsibilities in the project:"
@@ -182,7 +182,7 @@ export class ProjectComponent implements OnInit {
         this.project.name = 'Big Farm'
         this.project.description = 'Live an exciting life in the country with your own farm in Goodgame Big Farm! You are in charge of planting and harvesting your fields and, of course, raising your own pigs and cows! You will also have to prove your business skills by selling your goods on the market.'
         this.project.projectUrl = 'https://bigfarm.goodgamestudios.com'
-        this.project.projectImage = 'images/projects/professional/bigfarm/logo-wide.jpg'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.jpg"
         this.project.projectDuration = 'October 2013 - February 2015'
         this.project.company = 'Goodgame Studios'
         this.project.function = 'Quality Assurance Technician'
@@ -202,7 +202,7 @@ export class ProjectComponent implements OnInit {
         this.project.name = 'Empire: Four Kingdoms'
         this.project.description = 'Make your dream a reality and become a king and castle lord with the Empire: Four Kingdoms app! Produce new resources and build your small castle into a mighty fortress!'
         this.project.projectUrl = 'https://www.goodgamestudios.com/games/empire-four-kingdoms-app'
-        this.project.projectImage = 'images/projects/professional/logo-e4k.png'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.png"
         this.project.company = 'Goodgame Studios'
         this.project.function = 'Quality Assurance Technician'
         this.project.projectDuration = 'October 2013 - February 2015'
@@ -220,7 +220,7 @@ export class ProjectComponent implements OnInit {
         this.project.name = 'Goodgame Empire'
         this.project.description = 'In Goodgame Empire you create your own medieval kingdom! Fight PvP battles against other players or form alliances to become the most powerful ruler.'
         this.project.projectUrl = 'https://www.goodgamestudios.com/games/goodgame-empire/'
-        this.project.projectImage = 'images/projects/professional/empire/logo-wide.jpg'
+        this.project.projectImage = "images/projects/professional/" + this.id + "/logo-wide.jpg"
         this.project.company = 'Goodgame Studios'
         this.project.function = 'Quality Assurance Technician'
         this.project.projectDuration = 'October 2013 - February 2015'
