@@ -8,8 +8,6 @@ import { ContactDto } from '../../../model/contact.model';
 })
 export class ProfileComponent implements OnInit {
   @Input("avatarImage") avatarImage: string;
-  @Input("role") role: string;
-  @Input("location") location: string;
   @Input("contactInfo") contactInfo: ContactDto;
 
   constructor() { }

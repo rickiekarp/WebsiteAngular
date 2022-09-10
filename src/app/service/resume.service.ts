@@ -9,9 +9,9 @@ import { HttpClient } from  "@angular/common/http";
 })
 @Injectable()
 export class ResumeService {
-  private skillsApiUrl = '/api/HomeServer/resume/skills';
-  private experienceApiUrl = '/api/HomeServer/resume/experience';
-  private educationApiUrl = '/api/HomeServer/resume/education';
+  private skillsApiUrl = '/HomeServer/resume/skills';
+  private experienceApiUrl = '/HomeServer/resume/experience';
+  private educationApiUrl = '/HomeServer/resume/education';
 
   constructor(private httpClient:HttpClient) { 
   }
