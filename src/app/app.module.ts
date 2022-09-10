@@ -36,7 +36,7 @@ import { MenuExample } from './shared/components/popover/profile/profile-popover
 import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
 
-import { MatCarouselModule } from '@ngbmodule/material-carousel';
+import {IvyCarouselModule} from 'angular-responsive-carousel';
 
 @NgModule({
   imports: [
@@ -50,7 +50,7 @@ import { MatCarouselModule } from '@ngbmodule/material-carousel';
     SatPopoverModule,
     PagesModule,
     SharedModule,
-    MatCarouselModule.forRoot()
+    IvyCarouselModule
   ],
   declarations: [
     AppComponent,

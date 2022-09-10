@@ -10,11 +10,11 @@ import { Title } from '@angular/platform-browser';
 
 export class HomeComponent implements OnInit {
 
-  slides = [
-    {'image': 'assets/images/projects/professional/ogame-mobile/logo-wide.jpg'},
-    {'image': 'assets/images/projects/professional/trigon/logo-wide.jpg'},
-    {'image': 'assets/images/projects/professional/gujian/logo-wide.jpg'},
-    ];
+  images = [
+    {path: 'assets/images/projects/professional/ogame-mobile/logo-wide.jpg'},
+    {path: 'assets/images/projects/professional/trigon/logo-wide.jpg'},
+    {path: 'assets/images/projects/professional/gujian/logo-wide.jpg'},
+  ]
 
   constructor(private router: Router, private titleService: Title) { }
   

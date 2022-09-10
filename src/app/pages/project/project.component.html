@@ -32,21 +32,16 @@
                         <div *ngIf="project.trailerUrl != null">
                             <iframe width="1280" height="720" [src]="project.trailerUrl | safe" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
                         </div>
-                        <mat-carousel
-                        timings="250ms ease-in"
-                        [autoplay]="true"
-                        interval="2500"
-                        proportion=70
+                    <carousel *ngIf="imageUrls?.length"
+                        [height]="600"
+                        [cellsToShow]="1"
                         [loop]="true"
-                        [useKeyboard]="true"
-                        >
-                            <mat-carousel-slide
-                            *ngFor="let slide of imageUrls; let i = index"
-                            [image]="slide.image"
-                            overlayColor="#00000040"
-                            [hideOverlay]="false"
-                            ></mat-carousel-slide>
-                    </mat-carousel>
+                        [autoplay]="true"
+                        [autoplayInterval]="2500">
+                        <div class="carousel-cell" *ngFor="let slide of imageUrls">
+                            <img src="{{ slide.image }}">
+                        </div>
+                    </carousel>
                     </div>
                 <!-- End .education-block -->
             </div>
