@@ -4,7 +4,7 @@ import { HttpClient } from '@angular/common/http';
 
 @Injectable()
 export class ContactService {
-  private contactApiUrl = '/HomeServer/api/contact';
+  private contactApiUrl = '/HomeServer/contact';
 
   constructor(private http: HttpClient) { }
 
