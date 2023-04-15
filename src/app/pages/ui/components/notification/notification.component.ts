@@ -92,7 +92,7 @@ export class NotificationComponent extends RootComponent implements OnInit {
                 'This email is already taken.'
               );
             }
-            resolve();
+            resolve(this);
           }, 2000);
         });
       },

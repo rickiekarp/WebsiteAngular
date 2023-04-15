@@ -498,7 +498,7 @@ export class SlideshowComponent implements OnInit, DoCheck, OnChanges, OnDestroy
             this.slides[i].loaded = true;
             this._cdRef.detectChanges();
             this.onImageLazyLoad.emit(this.slides[i]);
-            resolve();
+            resolve(this);
           });
           loadImage.src = (typeof tmpImage === 'string' ? tmpImage : tmpImage.url);
         });
