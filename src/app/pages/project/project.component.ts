@@ -93,7 +93,7 @@ export class ProjectComponent implements OnInit {
           'Support integration into Gameforge platform',
           'Prepared and deployed shop for pre-order and release bundles'
         ]
-        this.project.trailerUrl = 'https://www.youtube.com/embed/ak4Fx1UoWeQ'
+        this.project.trailerUrl = 'https://www.youtube.com/embed/4yDEkcsL9Eg'
         break;
       case 'soulworkeranimelegends': 
         this.project.name = 'Soulworker Anime Legends'
@@ -107,7 +107,7 @@ export class ProjectComponent implements OnInit {
           'Support integration into Gameforge platform',
           'Prepared and deployed shop for pre-order and release bundles'
         ]
-        this.project.trailerUrl = 'https://www.youtube.com/embed/4_q64ahk-aQ'
+        this.project.trailerUrl = 'https://www.youtube.com/embed/1wldNrszm3s'
       break;
       case 'kingdomunderfire2': 
         this.project.name = 'Kingdom Under Fire 2'
@@ -244,12 +244,10 @@ export class ProjectComponent implements OnInit {
         this.project.downloadUrl = 'https://drive.google.com/open?id=1rut3LQAT78lcs23L-3swXuL04jwKa09m'
         this.project.projectImage = 'images/projects/private/logo-snakefx.png'
         this.project.company = 'Private project'
-        this.project.function = 'Creator'
         this.project.projectDuration = 'October 2019 - present'
         this.project.text = "Simple Snake implementation using JavaFX"
         this.imageUrls.push(
           {'image': 'assets/images/projects/private/snakefx/preview_1.png'},
-          {'image': 'assets/images/projects/private/snakefx/preview_2.png'},
         );
         break;
 
@@ -259,7 +257,6 @@ export class ProjectComponent implements OnInit {
         this.project.projectUrl = 'https://git.rickiekarp.net/rickie/home/src/master/projects/homebackend'
         this.project.projectImage = 'images/projects/private/logo-homebackend.png'
         this.project.company = 'Private project'
-        this.project.function = 'Creator'
         this.project.projectDuration = 'July 2018 - present'
         this.project.text = "Content of this project:"
         this.project.tasks = [ 
@@ -277,7 +274,6 @@ export class ProjectComponent implements OnInit {
         this.project.downloadUrl = 'https://drive.google.com/open?id=13pCI7Q0miUfk7fXJsmQxtWgXRamgvxgi'
         this.project.projectImage = 'images/projects/private/logo-sha1pass.png'
         this.project.company = 'Private project'
-        this.project.function = 'Creator'
         this.project.projectDuration = 'June 2014 - present'
         this.project.text = "Content of this project:"
         this.project.tasks = [ 
@@ -302,7 +298,6 @@ export class ProjectComponent implements OnInit {
         this.project.downloadUrl = 'https://drive.google.com/open?id=12C138Ek6ncQmQBa-Y6MpcS0b3i8KfjJA'
         this.project.projectImage = 'images/projects/private/logo-filelistcreator.png'
         this.project.company = 'Private project'
-        this.project.function = 'Creator'
         this.project.projectDuration = 'June 2014 - present'
         this.project.text = "Content of this project:"
         this.project.tasks = [ 
@@ -317,29 +312,12 @@ export class ProjectComponent implements OnInit {
         );
         break;
 
-      case 'botmanager': 
-        this.project.name = 'Web Bot'
-        this.project.description = 'Application to automate tasks on browsers and mobile'
-        this.project.projectUrl = 'https://git.rickiekarp.net/rickie/home/src/master/projects/JavaFXApps/BotManager'
-        this.project.projectImage = 'images/projects/private/logo-botmanager.png'
-        this.project.company = 'Private project'
-        this.project.function = 'Creator'
-        this.project.projectDuration = 'June 2015 - February 2016'
-        this.project.text = "Content of this project:"
-        this.project.tasks = [ 
-          'Login system',
-          'Plugin system',
-          'Periodic task execution'
-        ]
-        break;
-
       case 'assistant': 
         this.project.name = 'Assistant'
         this.project.description = 'Personal assistant app'
         this.project.projectUrl = 'https://git.rickiekarp.net/rickie/home/src/master/projects/MobileApps/assistantApp'
         this.project.projectImage = 'images/projects/private/logo-assistant.png'
         this.project.company = 'Private project'
-        this.project.function = 'Creator'
         this.project.projectDuration = 'October 2017 - June 2018'
         this.project.text = "Content of this project:"
         this.project.tasks = [ 
@@ -351,16 +329,6 @@ export class ProjectComponent implements OnInit {
           {'image': 'assets/images/projects/private/assistant/preview_2.png'},
           {'image': 'assets/images/projects/private/assistant/preview_3.png'},
         );
-        break;
-
-      case 'reddit': 
-        this.project.name = 'RedditIsFun'
-        this.project.description = 'Android app to read reddit.com'
-        this.project.projectUrl = 'https://git.rickiekarp.net/rickie/home/src/master/projects/MobileApps/redditApp'
-        this.project.projectImage = 'images/projects/private/logo-reddit.png'
-        this.project.company = 'Private project'
-        this.project.projectDuration = 'December 2015'
-        this.project.text = "Forked from https://github.com/talklittle/reddit-is-fun"
         break;
 
       case 'university': 
