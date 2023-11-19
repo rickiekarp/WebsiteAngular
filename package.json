@@ -4,8 +4,7 @@
   "license": "MIT",
   "scripts": {
     "ng": "ng",
-    "start": "ng serve --proxy-config proxy-pi.json",
-    "startDev": "ng serve --proxy-config proxy-dev.json",
+    "start": "ng serve",
     "buildProd": "ng build --configuration production --output-path=../module-deployment/service-nginx/html/live",
     "buildStandalone": "ng build",
     "serveStandaloneWatch": "ng serve --proxy-config proxy-dev.json --watch=true",

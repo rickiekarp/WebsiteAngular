@@ -37,6 +37,7 @@ import { PagesModule } from './pages/pages.module';
 import { SharedModule } from './shared/shared.module';
 
 import {IvyCarouselModule} from 'angular-responsive-carousel';
+import { BaseUrlInterceptor } from './helpers/http-interceptor';
 
 @NgModule({
   imports: [
@@ -72,7 +73,9 @@ import {IvyCarouselModule} from 'angular-responsive-carousel';
     ResumeService,
     { provide: HTTP_INTERCEPTORS, useClass: JwtInterceptor, multi: true },
     { provide: HTTP_INTERCEPTORS, useClass: ErrorInterceptor, multi: true },
-    { provide: LocationStrategy, useClass: HashLocationStrategy }
+    { provide: LocationStrategy, useClass: HashLocationStrategy },
+    { provide: HTTP_INTERCEPTORS, useClass: BaseUrlInterceptor, multi: true },
+    { provide: "BASE_API_URL", useValue: "https://api.rickiekarp.net" }
 
     // provider used to create fake backend
      //fakeBackendProvider 
