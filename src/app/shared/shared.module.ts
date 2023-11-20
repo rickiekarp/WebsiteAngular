@@ -14,7 +14,6 @@ import { FileTreeComponent } from './components/file-tree/file-tree.component';
 import { SwitchComponent } from './components/switch/switch.component';
 import { PellEditorComponent } from './components/pell-editor/pell-editor.component';
 import { AlertComponent } from './components/alert/alert.component';
-import { WeatherComponent } from './components/weather/weather.component';
 import { ProfileComponent } from './components/profile/profile.component';
 
 @NgModule({
@@ -35,8 +34,7 @@ import { ProfileComponent } from './components/profile/profile.component';
     SwitchComponent,
     PellEditorComponent,
     AlertComponent,
-    WeatherComponent,
-    ProfileComponent
+    ProfileComponent,
   ],
   exports: [
     CardComponent,
@@ -48,8 +46,7 @@ import { ProfileComponent } from './components/profile/profile.component';
     SwitchComponent,
     PellEditorComponent,
     AlertComponent,
-    WeatherComponent,
-    ProfileComponent
+    ProfileComponent,
   ]
 })
 export class SharedModule { }

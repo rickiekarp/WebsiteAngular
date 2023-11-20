@@ -5,12 +5,7 @@ Install all dependencies
 npm install
 ```
 
-Run with local development server
-```
-npm run startDev
-```
-
-Run with live backend config
+Run
 ```
 npm run start
 ```

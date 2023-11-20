@@ -15,6 +15,7 @@ const routes: Routes = [
   { path: '', redirectTo: 'home', pathMatch: 'full' },
   { path: 'userarea', component: UserAreaComponent, canActivate: [AuthGuard] },
   { path: 'pages/index',  redirectTo: 'pages/index', pathMatch: 'full' },
+  { path: 'pages/nucleus',  redirectTo: 'pages/nucleus', pathMatch: 'full' },
   { path: 'projects',  component: ProjectsComponent },
   { path: 'home',  component: HomeComponent },
   { path: 'contact',  component: ContactComponent },
@@ -23,18 +24,6 @@ const routes: Routes = [
   { path: 'login', component: LoginComponent },
   { path: 'register', component: RegisterComponent }
 ];
-
-/* 
-@NgModule({
-  imports: [
-   RouterModule.forRoot(routes, {
-         scrollPositionRestoration: 'enabled',
-         useHash: true
-       })
-  ],
-  exports: [ RouterModule ]
-})
-export class AppRoutingModule {} */
 
 @NgModule({
   exports: [ RouterModule ]

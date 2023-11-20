@@ -14,7 +14,7 @@ export const childRoutes: Routes = [
             { path: '', redirectTo: 'index', pathMatch: 'full' },
             { path: 'index', loadChildren: () => import('./index/index.module').then(m => m.IndexModule) },
             { path: 'profile', loadChildren: () => import('./profile/profile.module').then(m => m.ProfileModule) },
-            { path: 'form', loadChildren: () => import('./form/form.module').then(m => m.FormModule) },
+            { path: 'nucleus', loadChildren: () => import('./nucleus/nucleus.module').then(m => m.NucleusModule) },
             { path: 'charts', loadChildren: () => import('./charts/charts.module').then(m => m.ChartsModule) },
             { path: 'ui', loadChildren: () => import('./ui/ui.module').then(m => m.UIModule) },
             { path: 'table', loadChildren: () => import('./table/table.module').then(m => m.TableModule) },

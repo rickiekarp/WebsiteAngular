@@ -2,7 +2,6 @@ import { Component, OnInit } from '@angular/core';
 import { Router, ActivatedRoute } from '@angular/router';
 import { FormBuilder, FormGroup, Validators } from '@angular/forms';
 import { first } from 'rxjs/operators';
-
 import { AlertService, AuthenticationService } from '../../service';
 import { Title } from '@angular/platform-browser';
 
@@ -62,7 +61,7 @@ export class LoginComponent implements OnInit {
                 },
                 error => {
                     console.log("error");
-                    //this.alertService.error(error);
+                    this.alertService.error(error);
                     this.loading = false;
                 });
     }

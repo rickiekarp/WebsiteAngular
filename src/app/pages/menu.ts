@@ -9,22 +9,15 @@ export let MENU_ITEM = [
         icon: 'user',
         children: [
             {
-                path: 'charts',
-                title: 'Home',
-            },
-            {
-                path: 'charts',
-                title: 'Projects',
-            },
-            {
-                path: 'charts',
-                title: 'Resume',
-            },
-            {
                 path: 'profile',
                 title: 'Contact',
             }
         ]
+    },
+    {
+        path: 'nucleus',
+        title: 'Nucleus',
+        icon: 'dashboard'
     },
     {
         path: 'ui',
@@ -46,25 +39,6 @@ export let MENU_ITEM = [
             {
                 path: 'file-tree',
                 title: 'File Tree'
-            },
-            {
-                path: 'form',
-                title: 'Forms',
-                icon: 'check-square-o',
-                children: [
-                    {
-                        path: 'form-inputs',
-                        title: 'Form Inputs'
-                    },
-                    {
-                        path: 'form-layouts',
-                        title: 'Form Layouts'
-                    },
-                    {
-                        path: 'file-upload',
-                        title: 'File Upload'
-                    }
-                ]
             },
             {
                 path: 'charts',
