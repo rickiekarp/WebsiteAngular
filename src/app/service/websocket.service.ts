@@ -12,8 +12,7 @@ export class WebsocketService {
   constructor() { }
 
   connect(): void {
-    var host = "localhost:12000";
-    this.socket = new WebSocket("ws://"+ host +"/ws", "webinterface");
+    this.socket = new WebSocket("wss://api.rickiekarp.net/ws", "webinterface");
 
     this.socket.onopen = () => {
       console.log('WebSocket connection established.');
